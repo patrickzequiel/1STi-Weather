@@ -40,10 +40,6 @@ const SearchBar= (): JSX.Element => {
             type="submit"   
             aria-label="search">
                 <SearchIcon             
-                // value={query}  
-                // onChange={(e) => 
-                // setQuery(e.target.value)} 
-                // onKeyPress={search}
                 className='iconButton'/>
             </IconButton>
             <InputBase

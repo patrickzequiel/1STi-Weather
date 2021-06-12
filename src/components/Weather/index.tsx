@@ -35,7 +35,15 @@ const Weather: React.FC = () => {
 
     return (
         <>
-        <input type="text"className="search"placeholder="Search..."value={query}onChange={(e) => setQuery(e.target.value)}onKeyPress={search}/>
+        <input 
+        type="text"
+        className="search"
+        placeholder="Search..."
+        value={query}onChange={(e) => 
+        setQuery(e.target.value)}
+        onKeyPress={search}
+        />
+
         {weathers && (
             <div className="city"
                 >
