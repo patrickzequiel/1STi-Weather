@@ -15,9 +15,6 @@ const Container = styled.header`
         color: #fff;
       }
 
-      h2{
-        color: #fff;
-      }
 `
 
 export default Container;

@@ -11,6 +11,5 @@ export const api = async (query: string) => {
             APPID: API_KEY,
         }
     });
-
-    return data;
+        return data;
 }
